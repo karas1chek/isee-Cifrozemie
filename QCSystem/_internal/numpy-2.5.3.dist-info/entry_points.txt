@@ -1,11 +1,11 @@
 [pkg_config]
 numpy = numpy._core.lib.pkgconfig
 
-[array_api]
+[array_api] 
 numpy = numpy
 
 [pyinstaller40]
-hook-dirs = numpy:_pyinstaller_hooks_dir
+hook-dirs = numpy:_pyinstaller_hooks_dir 
 
 [console_scripts]
 f2py = numpy.f2py.f2py2e:main
